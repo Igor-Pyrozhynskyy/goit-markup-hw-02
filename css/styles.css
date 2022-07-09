@@ -1,5 +1,122 @@
 body {
-  font-family: "Oleo Script", cursive;
+  background-color: #e5e5e5;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+/* navigation */
+.header {
+  background-color: #ffffff;
+}
+.nav-logo {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+.nav-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #2196f3;
+}
+.nav-contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav-contacts:active,
+.nav-contacts:hover {
+  color: #2196f3;
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+}
+.hero-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.hero-btn:hover {
+  background-color: #188ce8;
+}
+/* section 1 */
+.main {
+  background-color: #e5e5e5;
+}
+.main-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-text {
+  color: #757575;
+  font-size: 14px;
+}
+/* photo */
+.photo {
+  background-color: #e5e5e5;
+}
+.photo-title {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+.team-people {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 400;
+}
+.team-position {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-title {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+}
+.logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 36px;
+}
+.footer-maps {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-maps:hover {
+  color: #2196f3;
+}
+.footer-contacts:hover {
+  color: #2196f3;
 }
