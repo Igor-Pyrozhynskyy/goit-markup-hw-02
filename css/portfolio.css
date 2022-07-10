@@ -1,5 +1,123 @@
 body {
-  background-color: teal;
+  background-color: #ececec;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/* шапка */
+.header {
+  background-color: #ffffff;
+}
+/* логотип */
+.nav-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+}
+/* основна навігіція */
+.nav-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #2196f3;
+}
+.nav-contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-contacts:focus,
+.nav-contacts:hover {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+/* фільтри */
+.filter-btn {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* основний контент */
+.main {
+  background-color: #eeeeee;
+}
+.main-link {
+  text-decoration: none;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  letter-spacing: 0.06em;
+}
+.main-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* підвал */
+.footer {
+  background-color: #2f303a;
+}
+.footer-title {
+  font-family: "Raleway";
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-maps {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-maps:hover {
+  color: #2196f3;
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: #2196f3;
 }
