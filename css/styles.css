@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -70,15 +70,14 @@ body {
   line-height: 1.8;
   letter-spacing: 0.06em;
   margin-left: 700px;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
 /* перша секція*/
-.main {
-  background-color: #e5e5e5;
-}
+
 .main-title {
   color: #212121;
   font-size: 14px;
@@ -129,12 +128,16 @@ body {
   letter-spacing: 0.03em;
 }
 /* фільтри */
+.filter {
+  background-color: #eeeeee;
+}
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus,
