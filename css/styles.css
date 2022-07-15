@@ -92,9 +92,6 @@ body {
   letter-spacing: 0.03em;
 }
 /* зображення */
-.photo {
-  background-color: #e5e5e5;
-}
 .photo-title {
   color: #212121;
   font-size: 36px;
@@ -128,9 +125,6 @@ body {
   letter-spacing: 0.03em;
 }
 /* фільтри */
-.filter {
-  background-color: #eeeeee;
-}
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -146,9 +140,6 @@ body {
   background-color: #2196f3;
 }
 /* основний контент */
-.main {
-  background-color: #eeeeee;
-}
 .main-link {
   text-decoration: none;
 }
